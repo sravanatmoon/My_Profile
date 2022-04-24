@@ -4,6 +4,10 @@ import numpy as np
 import time
 
 
+st.set_page_config(page_title='Sravan Singireddy', page_icon='🌋', layout="wide", initial_sidebar_state="auto", 
+menu_items={'Get Help': 'https://www.extremelycoolapp.com/help',
+         'Report a bug': "https://www.extremelycoolapp.com/bug",
+         'About': "# This is a header. This is an *extremely* cool app!"})
 
 with st.sidebar:
     '''
@@ -69,14 +73,14 @@ with st.expander("Details"):
 
 '''### Skills
 '''
-
-st.button('Artificial Intelligence')
-st.button('Machine Learning : Regression & Classifications')
-st.button('Deep Learning : NLP, Computer Vision')
-st.button('RNNs-Transformers')
-st.button('Tensorflow')
-st.button('scikit-learn')
-st.button('Python')
+with st.expander("Skills"):
+    st.button('Artificial Intelligence')
+    st.button('Machine Learning : Regression & Classifications')
+    st.button('Deep Learning : NLP, Computer Vision')
+    st.button('RNNs-Transformers')
+    st.button('Tensorflow')
+    st.button('scikit-learn')
+    st.button('Python')
 
 '''### EDUCATION
 #### B.Tech | Mechanical Engineering
